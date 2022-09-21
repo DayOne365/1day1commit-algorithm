@@ -1,4 +1,4 @@
-package sept21_1;
+package sept21;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -34,7 +34,6 @@ public class Main2 {
                 rt--;
             }
             String tmp = String.valueOf(c); // 일반적으로 인스턴스(객체). <- 으로해서 메서드를 참조하지만, valueOf는 스태틱이라서 클래스. <-으로 접근가능하다
-            result.add(tmp);
         }
         return result;
     }

@@ -1,4 +1,4 @@
-package sept21;
+package sept21_1;
 
 
 // 4. 단어 뒤집기

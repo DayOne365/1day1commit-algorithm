@@ -1,4 +1,4 @@
-package sept21;
+package sept21_1;
 
 
 // 4. 단어 뒤집기
@@ -29,7 +29,7 @@ import java.util.Scanner;
 
 public class Main1 {
     public ArrayList<String> solution(int n, String[] str) {
-        ArrayList<String> result = new ArrayList<String>();
+        ArrayList<String> result = new ArrayList<>();
 
         for (String x : str) {
         String temp = new StringBuilder(x).reverse().toString();
